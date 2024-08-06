@@ -2,48 +2,40 @@
 
 ## Overview
 
-This is a fullstack project with a frontend built using React (TypeScript) and a backend built using Flask.
+This is a backend built using Flask.
 
 ## Setup
 
-### Frontend
-
-1. Navigate to the frontend directory:
+1. Clone the repo:
     ```bash
-    cd ih_fe
+    git clone https://github.com/mezardini/IntronHealth-BE.git
     ```
 
-2. Install dependencies:
+
+2. Navigate to the backend directory:
     ```bash
-    npm install
+    cd intronhealth-be
     ```
 
-3. Run the development server:
-    ```bash
-    npm start
-    ```
-
-### Backend
-
-1. Navigate to the backend directory:
-    ```bash
-    cd IH_BE
-    ```
-
-2. Set up a virtual environment and install dependencies:
+3. Set up a virtual environment and install dependencies:
     ```bash
     python -m venv venv
-    source venv/bin/activate
+    venv/bin/activate
     pip install -r requirements.txt
     ```
 
-3. Run the Flask server:
+4. Run the Flask server:
+    ```bash
+    create a .env file in the app directory and add SECRET_KEY and JWT_SECRET_KEY
+    ```
+
+
+4. Run the Flask server:
     ```bash
     py run.py
     ```
 
 ## Usage
 
-- **Frontend**: Visit `http://localhost:3000` to view the application.
-- **Backend**: The Flask API runs on `http://127.0.0.1:5000`.
+- **URL**: The Flask API runs on `http://127.0.0.1:5000`.
 
