@@ -1,0 +1,10 @@
+
+*.env
+# Python bytecode (Backend)
+backend/__pycache__/
+backend/*.pyc
+
+# Flask migration files (Backend)
+backend/migrations/
+
+

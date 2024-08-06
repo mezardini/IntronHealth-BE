@@ -1,0 +1,12 @@
+flask 
+flask-wtf 
+flask-login 
+flask-sqlalchemy 
+flask-bcrypt
+django-environ
+marshmallow
+Flask-JWT-Extended
+flask-cors
+pytest 
+flask-testing
+pytest-flask
